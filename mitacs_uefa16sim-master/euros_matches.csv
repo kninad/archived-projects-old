@@ -1,0 +1,235 @@
+Russia,3,0,Czech Republic
+Yugoslavia,5,4,France
+Czech Republic,2,0,France
+Russia,2,1,Yugoslavia
+Spain,2,1,Hungary
+Russia,3,0,Denmark
+Hungary,3,1,Denmark
+Spain,2,1,Russia
+Italy,0,0,Russia
+Yugoslavia,1,0,England
+England,2,0,Russia
+Italy,2,0,Yugoslavia
+Germany,2,1,Belgium
+Russia,1,0,Hungary
+Belgium,2,1,Hungary
+Germany,3,0,Russia
+Czech Republic,3,1,Netherlands
+Germany,4,2,Yugoslavia
+Netherlands,3,2,Yugoslavia
+Czech Republic,2,2,Germany
+Germany,1,1,Czech Republic
+Netherlands,1,0,Greece
+Germany,3,2,Netherlands
+Czech Republic,3,1,Greece
+Czech Republic,1,1,Netherlands
+Germany,0,0,Greece
+Belgium,1,1,England
+Spain,0,0,Italy
+Spain,1,2,Belgium
+Italy,1,0,England
+Spain,1,2,England
+Italy,0,0,Belgium
+Czech Republic,1,1,Italy
+Germany,2,1,Belgium
+Germany,1,1,Czech Republic
+France,1,0,Denmark
+Belgium,2,0,Yugoslavia
+France,5,0,Belgium
+Denmark,5,0,Yugoslavia
+France,3,2,Yugoslavia
+Denmark,3,2,Belgium
+Germany,0,0,Portugal
+Spain,1,1,Romania
+Germany,2,1,Romania
+Portugal,1,1,Spain
+Germany,0,1,Spain
+Portugal,1,0,Romania
+France,3,2,Portugal
+Spain,1,1,Denmark
+France,2,0,Spain
+Germany,1,1,Italy
+Denmark,2,3,Spain
+Germany,2,0,Denmark
+Italy,1,0,Spain
+Germany,2,0,Spain
+Italy,2,0,Denmark
+England,0,1,Ireland
+Netherlands,0,1,Russia
+England,1,3,Netherlands
+Ireland,1,1,Russia
+England,1,3,Russia
+Ireland,0,1,Netherlands
+Germany,1,2,Netherlands
+Russia,2,0,Italy
+Netherlands,2,0,Russia
+Sweden,1,1,France
+Denmark,0,0,England
+France,0,0,England
+Sweden,1,0,Denmark
+Sweden,2,1,England
+France,1,2,Denmark
+Netherlands,1,0,Scotland
+Germany,1,1,Russia
+Germany,2,0,Scotland
+Netherlands,0,0,Russia
+Scotland,3,0,Russia
+Netherlands,3,1,Germany
+Sweden,2,3,Germany
+Netherlands,2,2,Denmark
+Denmark,2,0,Germany
+England,1,1,Switzerland
+Netherlands,0,0,Scotland
+Switzerland,0,2,Netherlands
+Scotland,0,2,England
+Scotland,1,0,Switzerland
+Netherlands,1,4,England
+Spain,1,1,Bulgaria
+Romania,0,1,France
+Bulgaria,1,0,Romania
+France,1,1,Spain
+France,3,1,Bulgaria
+Romania,1,2,Spain
+Germany,2,0,Czech Republic
+Italy,2,1,Russia
+Czech Republic,2,1,Italy
+Russia,0,3,Germany
+Russia,3,3,Czech Republic
+Italy,0,0,Germany
+Denmark,1,1,Portugal
+Turkey,0,1,Croatia
+Portugal,1,0,Turkey
+Denmark,0,3,Croatia
+Croatia,0,3,Portugal
+Denmark,3,0,Turkey
+England,0,0,Spain
+France,0,0,Netherlands
+Germany,2,1,Croatia
+Portugal,0,1,Czech Republic
+France,0,0,Czech Republic
+England,1,1,Germany
+Germany,2,1,Czech Republic
+Germany,1,1,Romania
+Portugal,3,2,England
+Romania,0,1,Portugal
+England,1,0,Germany
+England,2,3,Romania
+Portugal,3,0,Germany
+Belgium,2,1,Sweden
+Turkey,1,2,Italy
+Italy,2,0,Belgium
+Sweden,0,0,Turkey
+Turkey,2,0,Belgium
+Italy,2,1,Sweden
+Spain,0,1,Norway
+Yugoslavia,3,3,Slovenia
+Slovenia,1,2,Spain
+Norway,0,1,Yugoslavia
+Yugoslavia,3,4,Spain
+Slovenia,0,0,Norway
+France,3,0,Denmark
+Netherlands,1,0,Czech Republic
+Czech Republic,1,2,France
+Denmark,0,3,Netherlands
+France,2,3,Netherlands
+Denmark,0,2,Czech Republic
+Portugal,2,0,Turkey
+Italy,2,0,Romania
+Netherlands,6,1,Yugoslavia
+France,2,1,Spain
+Portugal,1,2,France
+Italy,0,0,Netherlands
+France,2,1,Italy
+Portugal,1,2,Greece
+Spain,1,0,Russia
+Greece,1,1,Spain
+Russia,0,2,Portugal
+Spain,0,1,Portugal
+Russia,2,1,Greece
+Switzerland,0,0,Croatia
+France,2,1,England
+England,3,0,Switzerland
+Croatia,2,2,France
+Croatia,2,4,England
+Switzerland,1,3,France
+Denmark,0,0,Italy
+Sweden,5,0,Bulgaria
+Bulgaria,0,2,Denmark
+Italy,1,1,Sweden
+Italy,2,1,Bulgaria
+Denmark,2,2,Sweden
+Germany,1,1,Netherlands
+Czech Republic,2,1,Latvia
+Germany,0,0,Latvia
+Netherlands,2,3,Czech Republic
+Netherlands,3,0,Latvia
+Germany,1,2,Czech Republic
+Portugal,2,2,England
+France,0,1,Greece
+Sweden,0,0,Netherlands
+Czech Republic,3,0,Denmark
+Portugal,2,1,Netherlands
+Greece,1,0,Czech Republic
+Portugal,0,1,Greece
+Switzerland,0,1,Czech Republic
+Portugal,2,0,Turkey
+Czech Republic,1,3,Portugal
+Switzerland,1,2,Turkey
+Switzerland,2,0,Portugal
+Turkey,3,2,Czech Republic
+Austria,0,1,Croatia
+Germany,2,0,Poland
+Croatia,2,1,Germany
+Austria,1,1,Poland
+Austria,0,1,Germany
+Poland,0,1,Croatia
+Romania,0,0,France
+Netherlands,3,0,Italy
+Italy,1,1,Romania
+Netherlands,4,1,France
+France,0,2,Italy
+Netherlands,2,0,Romania
+Spain,4,1,Russia
+Greece,0,2,Sweden
+Sweden,1,2,Spain
+Greece,0,1,Russia
+Greece,1,2,Spain
+Russia,2,0,Sweden
+Germany,3,2,Portugal
+Croatia,1,1,Turkey
+Netherlands,1,3,Russia
+Spain,0,0,Italy
+Germany,3,2,Turkey
+Spain,3,0,Russia
+Spain,1,0,Germany
+Poland,1,1,Greece
+Russia,4,1,Czech Republic
+Greece,1,2,Czech Republic
+Poland,1,1,Russia
+Czech Republic,1,0,Poland
+Greece,1,0,Russia
+Netherlands,0,1,Denmark
+Germany,1,0,Portugal
+Denmark,2,3,Portugal
+Netherlands,1,2,Germany
+Portugal,2,1,Netherlands
+Denmark,1,2,Germany
+Spain,1,1,Italy
+Republic of Ireland,1,3,Croatia
+Italy,1,1,Croatia
+Spain,4,0,Republic of Ireland
+Croatia,0,1,Spain
+Italy,2,0,Republic of Ireland
+France,1,1,England
+Ukraine,2,1,Sweden
+Ukraine,0,2,France
+Sweden,2,3,England
+England,1,0,Ukraine
+Sweden,2,0,France
+Czech Republic,0,1,Portugal
+Germany,4,2,Greece
+Spain,2,0,France
+England,0,0,Italy
+Spain,0,0,Portugal
+Germany,1,2,Italy
+Spain,4,0,Italy

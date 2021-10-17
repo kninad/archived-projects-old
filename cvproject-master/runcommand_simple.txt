@@ -1,0 +1,50 @@
+python monodepth_simple.py \ 
+--image_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/test1.png \
+--checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_1/model-17350
+
+
+# one line
+python monodepth_simple.py --image_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/test1.png --checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_1/model-17350
+
+
+# testing
+python monodepth_main.py --mode test \
+--data_path /media/ninad/Study/umass/sem1/cv_670/CVproj/data/mpi_sintel/MPI-Sintel-stereo-training-20150305/training/gcloud_upload/final_left/market_2/ \
+--filenames_file /media/ninad/Study/umass/sem1/cv_670/CVproj/data/mpi_sintel/MPI-Sintel-stereo-training-20150305/training/gcloud_upload/final_left/market_2/txt_names.txt \ 
+--log_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/data/mpi_sintel/MPI-Sintel-stereo-training-20150305/training/gcloud_upload/final_left/market_2/ \
+--checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_1/model-17350 \
+--output_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/data/mpi_sintel/MPI-Sintel-stereo-training-20150305/training/gcloud_upload/final_left/market_2/
+
+
+
+# vid test 1
+python monodepth_main.py --mode test --data_path /media/ninad/Study/umass/sem1/cv_670/CVproj/data/mpi_sintel/MPI-Sintel-stereo-training-20150305/training/gcloud_upload/final_left/market_2/ --filenames_file /media/ninad/Study/umass/sem1/cv_670/CVproj/data/mpi_sintel/MPI-Sintel-stereo-training-20150305/training/gcloud_upload/final_left/market_2/txt_names.txt --log_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/data/mpi_sintel/MPI-Sintel-stereo-training-20150305/training/gcloud_upload/final_left/market_2/ --checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_1/model-17350 --output_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/data/mpi_sintel/MPI-Sintel-stereo-training-20150305/training/gcloud_upload/final_left/market_2/
+
+
+#test 5
+python monodepth_main.py --mode test --data_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test5/ --filenames_file /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test5/txt_names.txt --log_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test5/ --checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_2/model-3480 --output_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test5/
+
+
+# test4
+python monodepth_main.py --mode test --data_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test4/ --filenames_file /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test4/txt_names.txt --log_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test4/ --checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_2/model-3480 --output_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test4/
+
+#test 3
+
+python monodepth_main.py --mode test --data_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test3/ --filenames_file /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test3/txt_names.txt --log_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test3/ --checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_2/model-3480 --output_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test3/
+
+
+# test2
+python monodepth_main.py --mode test --data_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test2/ --filenames_file /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test2/txt_names.txt --log_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test2/ --checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_2/model-3480 --output_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test2/
+
+
+# test1
+python monodepth_main.py --mode test --data_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test1/ --filenames_file /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test1/txt_names.txt --log_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test1/ --checkpoint_path /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/models/model_2/model-3480 --output_directory /media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth/augment_images/test1/
+
+
+# abs path
+/media/ninad/Study/umass/sem1/cv_670/CVproj/code/monodepth
+
+# models
+monodepth/pretrained_models/model_eigen/model_eigen
+monodepth/models/model_1/model-17350
+monodepth/models/model_2/model-3480
