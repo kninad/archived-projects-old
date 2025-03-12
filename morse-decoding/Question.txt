@@ -1,0 +1,133 @@
+Take-home problem: morse code decoder
+________________
+
+(Although the code snippets below are in Python, you may use any language of your choice.)
+
+According to Wikipedia, morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs. Morse code is named after Samuel Morse, one of the inventors of the telegraph.
+
+In this problem we will only be concerned with the basic Latin letters “a” through “z”. Here is the encoding:
+
+MORSE_CODE = {
+   "a": ".-",
+   "b": "-...",
+   "c": "-.-.",
+   "d": "-..",
+   "e": ".",
+   "f": "..-.",
+   "g": "--.",
+   "h": "....",
+   "i": "..",
+   "j": ".---",
+   "k": "-.-",
+   "l": ".-..",
+   "m": "--",
+   "n": "-.",
+   "o": "---",
+   "p": ".--.",
+   "q": "--.-",
+   "r": ".-.",
+   "s": "...",
+   "t": "-",
+   "u": "..-",
+   "v": "...-",
+   "w": ".--",
+   "x": "-..-",
+   "y": "-.--",
+   "z": "--..",
+}
+
+In morse code, letters are separated by a space equal to three “dots”, and words are separated by a space equal to seven “dots”. For our problem, we will use a space character (" ") to separate letters and a vertical bar ("|") to separate words. For example, the message
+
+
+        "the robot brains"
+
+is encoded as
+
+
+        "- .... .|.-. --- -... --- -|-... .-. .- .. -. ..."
+
+Your task is to implement a decoder that decodes a morse code string into the original message.
+However, it must deal with the following hostile conditions:
+1) Some letter separators (" ") may be missing.
+2) Some word separators ("|") may be missing.
+Given these conditions, there could be multiple decodings for a single morse-code message. To limit the possibilities, your decoder must take a dictionary of allowed words. A decoded message should include only words appearing in the dictionary.
+
+For instance, the following messages all could decode into "the robot brains":
+    "- .... .|.-. --- -... --- -|-... .-. .- .. -. ..."
+    "- .... .|.-. --- -... --- --... .-. .- .. -. ..."
+    "- .....|.-. --- -...-----....-..-..-...."
+But the last one might also decode into:
+"the rodeo mesne tease"
+
+________________
+
+Your decoder should be implemented as a class with the following interface:
+
+
+class Decoder:
+    def __init__(self, dictionary: Collection[str]) -> None:
+        """Construct a decoder from a dictionary of allowed words.
+
+
+        Each word is a string of letters ("a" through "z").
+        """
+
+    def decode(self, morse: str) -> Collection[str]:
+        """Return all possible decodings of the input message 'morse'.
+
+
+        Each returned string is a space-separated sequence of words
+        from the dictionary.
+        """
+
+________________
+
+Below are some examples. Note that while the dictionary size is very small for the first two examples in order to make them self-contained, your code should assume the dictionary is of realistic size (10-100k words). Included is a file, dictionary.txt, with 10,000 common words of length at least 3 (gathered from https://norvig.com/ngrams/). The last example below uses this dictionary.
+________________
+
+decoder = Decoder(dictionary={"a", "awe", "eye", "we"})
+
+assert set(decoder.decode(".-|.--.")) == {"a we"}
+assert set(decoder.decode(". -.--.")) == {"eye"}
+assert set(decoder.decode(".- .--.")) == {"awe", "a we"}
+assert set(decoder.decode(".-.--.")) == {"awe", "eye", "a we"}
+
+________________
+
+decoder = Decoder(
+    dictionary={"brains", "mesne", "robot", "rodeo", "tease", "the"}
+)
+
+morse = "- .... .|.-. --- -... --- -|-... .-. .- .. -. ..."
+assert set(decoder.decode(morse)) == {"the robot brains"}
+
+morse = "- .... .|.-. --- -... --- --... .-. .- .. -. ..."
+assert set(decoder.decode(morse)) == {"the robot brains"}
+
+morse = "- .....|.-. --- -...-----....-..-..-...."
+assert set(decoder.decode(morse)) == {
+    "the robot brains", "the rodeo mesne tease"
+}
+________________
+
+dictionary = open("dictionary.txt").read().split("\n")
+decoder = Decoder(dictionary)
+for i, result in enumerate([
+   (),
+   (),
+   (),
+   (),
+   (),
+   ("tom",),
+   ("mom", "too"),
+   (),
+   ("ooo",),
+   (),
+   (),
+   ("tom tom",),
+   ("mom tom", "too tom", "tom mom", "tom too"),
+]):
+   morse = "-" * (i + 1)
+   assert set(decoder.decode(morse)) == set(result)
+
+________________
